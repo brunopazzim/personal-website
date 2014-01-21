@@ -1,5 +1,10 @@
 require 'sinatra'
 
 get '/' do
-  erb :index
+  result = rand(1..2)
+  if result.eql?(1)
+    erb :index
+  else
+    erb :index2
+  end
 end
