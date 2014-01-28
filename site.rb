@@ -33,12 +33,3 @@ end
 if __FILE__ == $0
   MyApp.run! :port => 4567
 end
-
-#get '/' do
-#  result = rand(1..2)
-#  if result.eql?(1)
-#    erb :index
-#  else
-#    erb :index2
-#  end
-#end
