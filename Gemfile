@@ -4,5 +4,3 @@ ruby '2.0.0'
 gem 'sinatra', :github => "sinatra/sinatra"
 gem 'pony'
 gem 'slim'
-gem 'sass'
-gem 'coffee-script'
