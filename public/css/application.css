@@ -13,5 +13,6 @@ hr{
   border-top: 1px solid #c3c3c3;
 }
 
-.wrapper{ padding-bottom: 120px; }
+.wrapper{ padding-bottom: 80px; }
 .hiragana{ padding: 62px 60px 10px 50px; }
+.img{ padding: 60px 40px 0px 40px; }
