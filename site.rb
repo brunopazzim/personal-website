@@ -1,12 +1,13 @@
-require 'rubygems'
-require 'sinatra/base'
+require 'sinatra'
 require 'slim'
 require 'sass'
 require 'coffee-script'
+require 'pry'
 
 class SassHandler < Sinatra::Base
   set :views, File.dirname(__FILE__) + '/templates/sass'
   get '/css/*.css' do
+    binding.pry
     filename = params[:splat].first
     scss filename.to_sym
   end
@@ -23,7 +24,7 @@ end
 class MyApp < Sinatra::Base
   use SassHandler
   use CoffeeHandler
-  set :public, File.dirname(__FILE__) + '/public'
+  set :public_dir, File.dirname(__FILE__) + '/public'
   set :views, File.dirname(__FILE__) + '/templates'
   get '/' do
     slim :index
