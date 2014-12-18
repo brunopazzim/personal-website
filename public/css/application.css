@@ -6,4 +6,15 @@ li{font-size: 1.1em;}
 .wrapper{padding-bottom: 60px; background-image: url('/img/rice.png');}
 .hiragana{padding: 68px 60px 10px 50px; margin-top: 10px}
 .img{padding: 60px 40px 0px 40px; width:100%;}
+.instagram-frame{display: block; padding-top: 40px;}
 .social-links{width: 100%; word-break: break-all}
+
+@media (max-width: 490px) {
+  .instagram-frame{display: none;}
+}
+
+
+@media (max-width: 768px){
+  .instagram-frame{display: none;}
+}
+
