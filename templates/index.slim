@@ -29,13 +29,29 @@ meta name="viewport" content="width=device-width, initial-scale=1"
           |.
     .row
       .col-md-6.col-md-offset-3
-        .instagram-frame
-          iframe src="http://snapwidget.com/sc/?u=YnJ1bm9wYXp6aW18aW58MTUwfDN8M3x8bm98NXxub25lfG9uU3RhcnR8eWVzfG5v&ve=181214" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:555px; height:150px"
-        img.img src="img/codeland.png"
-        h2 Co-founder and CBDO at CODELAND
-        p
-          a href="http://www.codeland.com.br" target="_blank" CODELAND
-          | &nbspis an agile web development company, which specialized in releasing new digital businesses through carefully crafted software. They work with worldwide clients to develop businesses for enterpreneurs and big companies who wish to release new services or products. Bruno co-founded the company together with other 3 fine gentleman. Today he works there as a Business Developer to make shit happen.
+        .social-buttons
+          .col-md-6.twitter-follow
+            a class="twitter-follow-button" href="https://twitter.com/brunopazzim" data-show-count="false" data-lang="en" data-size="large" Follow @brunopazzim
+
+            javascript:
+              window.twttr = (function (d, s, id) {
+                var t, js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src= "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+                return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+              }(document, "script", "twitter-wjs"));
+
+          .col-md-6.instagram-follow
+            a href="http://instagram.com/brunopazzim?ref=badge" class="ig-b- ig-b-v-24" target="_blank"
+              img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram"
+
+          img.img src="img/codeland.png"
+          h2 Co-founder and CBDO at CODELAND
+          p
+            a href="http://www.codeland.com.br" target="_blank" CODELAND
+            | &nbspis an agile web development company, which specialized in releasing new digital businesses through carefully crafted software. They work with worldwide clients to develop businesses for enterpreneurs and big companies who wish to release new services or products. Bruno co-founded the company together with other 3 fine gentleman. Today he works there as a Business Developer to make shit happen.
 
         img.img src="img/superhero.png"
         h2 Super Hero at weekends
